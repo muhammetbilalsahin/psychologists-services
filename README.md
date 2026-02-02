@@ -21,7 +21,7 @@ Built to provide both strong efficiency and effortless scalability.
 
 1. Clone the repo:
 
-git clone https://github.com/nilaytr/Psychologists-Services.git
+git clone https://github.com/muhammetbilalsahin/psychologists-services?tab=readme-ov-file
 
 2. Go to the project directory:
 
@@ -37,4 +37,4 @@ npm run dev
 
 ## 💻 Author
 
-- [Nilay Türker](https://github.com/nilaytr)
+- [Muhammet Bilal Şahin](https://github.com/muhammetbilalsahin)
