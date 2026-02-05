@@ -1,87 +1,134 @@
 .reviewList {
-    padding-top: 30px;
-    padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 40px;
 }
 
 .reviewList li:not(:last-child) {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .reviewerInfo {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    gap: 5px;
-    padding-left: 60px;
-    margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 5px;
+  padding-left: 60px;
+  margin-top: -40px;
 }
 
 .reviewerName {
-    font-weight: 500;
-    font-size: 16px;
-    font-style: medium;
-    line-height: 20px;
-    letter-spacing: 0%;
-    color: #191A15;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: medium;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: #191a15;
 }
 
 .avatar {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: 0%;
-    font-style: medium;
-    border-radius: 50%;
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(84, 190, 150, 0.2);
-    color: #54BE96;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0%;
+  font-style: medium;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(84, 190, 150, 0.2);
+  color: #54be96;
 }
 
 .ratingRev {
-    display: flex;
-    flex-direction: row;
-    gap: 8px;
-    align-items: center;   
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
 }
 
 .ratingRev p {
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 18px;
-    letter-spacing: 0%;
-    font-style: medium;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0%;
+  font-style: medium;
 }
 
 .comment {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: 0%;
-    color: rgba(25, 26, 21, 0.5);
-    margin-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+  color: rgba(25, 26, 21, 0.5);
+  margin-top: 20px;
 }
 
 .appointmentBtn {
-    width: 227px;
-    height: 48px;
-    border: none;
-    border-radius: 30px;
-    background-color: #54BE96;
-    font-size: 16px;
-    font-weight: 500;
-    font-style: medium;
-    line-height: 20px;
-    letter-spacing: -1%;
-    color: #FBFBFB;
-    cursor: pointer;
-    margin-top: -10px;
-    margin-left: -10px;
+  width: 227px;
+  height: 48px;
+  border: none;
+  border-radius: 30px;
+  background-color: #54be96;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: medium;
+  line-height: 20px;
+  letter-spacing: -1%;
+  color: #fbfbfb;
+  cursor: pointer;
+  margin-top: -10px;
+  margin-left: -10px;
 }
 
 .appointmentBtn:hover {
-    background-color: #36A379;
+  background-color: #36a379;
+}
+
+@media (max-width: 320px) {
+  .reviewList {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+  .reviewerInfo {
+    position: static;
+    padding-left: 0;
+    margin-top: 10px;
+    gap: 4px;
+  }
+
+  .reviewerName {
+    font-size: 14px;
+  }
+
+  .avatar {
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+  }
+
+  .ratingRev {
+    gap: 6px;
+  }
+
+  .ratingRev p {
+    font-size: 13px;
+  }
+
+  .comment {
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 12px;
+  }
+
+  .appointmentBtn {
+    width: 100%;
+    max-width: 227px;
+    height: 44px;
+    margin: 16px auto 0 auto;
+    display: block;
+    font-size: 14px;
+  }
 }
